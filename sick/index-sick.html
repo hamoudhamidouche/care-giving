@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sick People Care Services</title>
+    <link rel="stylesheet" href="styles-sick.css">
+</head>
+<body>
+    <header>
+        <h1>Sick People Care Services</h1>
+        <nav>
+            <a href="../index-main.html">Home</a>
+            <a href="#about">About Sick People Care</a>
+            <a href="#caregivers">Our Caregivers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Compassionate Care for the Sick</h2>
+        <p>Providing professional and compassionate caregivers to support individuals with medical needs, ensuring comfort and recovery.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Sick People Care</h2>
+        <p>Our sick people care services focus on providing dedicated support for individuals recovering from illnesses, managing chronic conditions, or requiring specialized medical attention. From medication management to physical assistance and emotional support, our caregivers prioritize the well-being and recovery of our clients. We aim to ensure a safe, respectful, and nurturing environment.</p>
+    </section>
+
+    <section id="caregivers" class="caregiver-cards">
+        <h2>Meet Our Caregivers</h2>
+        <div class="choose-caregiver">
+            <div class="caregiver">
+                <div class="image-holder">
+                    <img src="..\pics\caregiver1.jpg" alt="Caregiver 1" class="caregiver-pic">
+                </div>
+                <div class="caregiver-info">
+                    <h3>Anna Taylor</h3>
+                    <p>Experience: 8 years</p>
+                    <p>Specializes in: Post-surgical care and mobility assistance</p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+            <div class="caregiver">
+                <div class="image-holder">
+                    <img src="..\pics/caregiver3.jpg" alt="Caregiver 2" class="caregiver-pic">
+                </div>
+                <div class="caregiver-info">
+                    <h3>John Miller</h3>
+                    <p>Experience: 6 years</p>
+                    <p>Specializes in: Chronic condition management and therapy support</p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+            <div class="caregiver">
+                <div class="image-holder">
+                    <img src="..\pics/caregiver2.jpg" alt="Caregiver 3" class="caregiver-pic">                    
+                </div>
+                <div class="caregiver-info">
+                    <h3>Linda Evans</h3>
+                    <p>Experience: 10 years</p>
+                    <p>Specializes in: Palliative care and medical assistance</p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need help finding the right caregiver for your needs? Get in touch with us today!</p>
+        <form  action="contact-us/index-contact.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Caregiving Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>

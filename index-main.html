@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caregiving Platform</title>
+        <link rel="stylesheet" href="styles-main-resp.css">
+    </head>
+    <body>
+        <header>
+            <h1>Caregiving Platform</h1>
+        </header>
+        <nav>
+            <a href="#" class=".hover-before">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="chatbot-btn">Chat with AI</button>
+
+        <div class="chatbot-container hidden">
+            <div id="chatbot-header">
+                <span>AI Assistant</span>
+                <button id="close-chatbot">&times;</button>
+            </div>
+            <div id="chatbot-messages"></div>
+            <div id="chatbot-input-container">
+                <input type="text" id="chatbot-input" placeholder="Type your message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+
+        <section class="hero">
+            <h2>Connecting Families with Trusted Caregivers</h2>
+            <p>Find help for babysitting, elderly care, or sick care today.</p>
+            <div class="family-photo"><img src="pics/family.png" alt=""></div>
+        </section>
+
+        <section id="services" class="categories">
+            <div class="category">
+                <div class="image-holder">
+                    <img src="pics\babysitting.jpg" alt="Babysitting">
+                </div>
+                <div class="category-div">
+                    <h3>Babysitting</h3>
+                    <p>Find trusted babysitters to take care of your little ones.</p>
+                    <a href="babysitting-page/index-baby.html" class="learn-more-link"><button>Learn More</button></a>
+                </div>
+            </div>
+            <div class="category">
+                <div class="image-holder">
+                    <img src="pics\old_people.jpg" alt="Elderly Care">
+                </div>
+                
+                <div class="category-div">
+                    <h3>Elderly Care</h3>
+                    <p>Get compassionate caregivers for your elderly family members.</p>
+                    <a href="eldery/index-old.html" class="learn-more-link"><button>Learn More</button></a>
+                </div>
+            </div>
+            <div class="category">
+                <div class="image-holder">
+                    <img src="pics\sick_people1.jpg" alt="Sick Care">
+                </div>
+                
+                <div class="category-div">
+                    <h3>Sick Care</h3>
+                    <p>Professional support for those recovering from illness.</p>
+                    <a href="sick/index-sick.html" class="learn-more-link"><button>Learn More</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-picture"><img src="pics/Artboard 7.png" alt=""></div>
+            <p>We are a platform dedicated to connecting families with trusted and reliable caregivers. Whether you need babysitting for your little ones, assistance for elderly family members, or help caring for someone who is unwell, we are here to help. Our caregivers are verified professionals with experience in providing compassionate care.</p>
+            <p>Our mission is to provide peace of mind to families by offering easy access to high-quality caregiving services. With a user-friendly platform and a wide range of services, we ensure that finding help is hassle-free and reliable.</p>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <h2>How It Works</h2>
+            <ol>
+                <li><strong>Sign Up:</strong> Create an account to get started.</li>
+                <li><strong>Browse Services:</strong> Explore the caregiving options available for your needs.</li>
+                <li><strong>Connect:</strong> Contact and hire a trusted caregiver from our platform.</li>
+                <li><strong>Enjoy Peace of Mind:</strong> Receive professional care and focus on what matters most.</li>
+            </ol>
+            <div class="how-pic"><img src="pics/Artboard 180.png" alt=""></div>
+
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial">
+                <p>"This platform has been a lifesaver! Finding a babysitter was so easy, and she was wonderful with our kids."</p>
+                <h4>- Sarah M.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"We needed help for my elderly father, and the caregiver we found was compassionate and professional."</p>
+                <h4>- James L.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"After surgery, I struggled to manage daily tasks. The sick care service was a huge help during my recovery."</p>
+                <h4>- Emily R.</h4>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="conatct-png"><img src="pics/Artboard 6.png" alt=""></div>
+            <p>If you have any questions or need assistance, feel free to reach out to us. Our team is here to help!</p>
+            <form action="contact-us/index-contact.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Caregiving Platform. All rights reserved.</p>
+        </footer>
+
+        <script src="script-main.js"></script>
+    </body>
+</html>

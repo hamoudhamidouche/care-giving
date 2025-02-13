@@ -1,0 +1,231 @@
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #4A3F35; /* Warm dark brown */
+    background-color: #FDF7F0; /* Soft beige */
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styling */
+header {
+    background-color: #9E6B68; /* Soft mauve */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav {
+    margin-top: 0.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #FDE5D4; /* Light peach */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, #9E6B68, #D9A29B); /* Soft mauve to peach */
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #9E6B68;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #5C5049;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Caregiver Cards Section */
+.caregiver-cards {
+    padding: 2rem 1rem;
+    background-color: #FAE3D9; /* Soft peach */
+    text-align: center;
+}
+
+.caregiver-cards h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #9E6B68;
+}
+
+.choose-caregiver {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.caregiver {
+    background: white;
+    border: 1px solid #E3CBC5; /* Light mauve */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    padding: 2rem 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.caregiver:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.caregiver img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #9E6B68;
+    margin: 1rem 0;
+}
+
+.caregiver h3 {
+    font-size: 1.5rem;
+    color: #9E6B68;
+    margin-bottom: 0.5rem;
+}
+
+.caregiver p {
+    color: #5C5049;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.caregiver button {
+    background: #9E6B68;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.caregiver button:hover {
+    background: #8C5D5A;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem 1rem;
+    background: white;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #9E6B68;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    color: #5C5049;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #4A3F35;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #E3CBC5;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact button {
+    background: #9E6B68;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact button:hover {
+    background: #8C5D5A;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #9E6B68;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: auto;
+}

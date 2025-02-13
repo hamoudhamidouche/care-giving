@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caregiver Profile</title>
+  <link rel="stylesheet" href="styles-profile.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Caregiver Profile</h1>
+    <nav>
+      <a href="../index-main.html">Home</a>
+      <a href="../babysitting-page/index-baby.html">All Caregivers</a>
+    </nav>
+  </header>
+
+  <!-- Profile Hero Section -->
+  <section class="profile-hero">
+    <img src="../pics/caregiver3.jpg" alt="Caregiver Photo" class="profile-pic">
+    <h2>Michael Smith</h2>
+    <p>Specializes in outdoor activities | 4 years of experience</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Assisting with daily activities</li>
+      <li>Outdoor companionship</li>
+      <li>First aid certified</li>
+      <li>Meal preparation</li>
+      <li>Light housekeeping</li>
+    </ul>
+  </section>
+
+  <!-- Feedback Section -->
+  <section class="feedback">
+    <h2>Client Feedback</h2>
+    <div class="reviews">
+      <div class="review">
+        <p><strong>John Doe:</strong> Michael was wonderful with my father. His care and dedication are unmatched.</p>
+      </div>
+      <div class="review">
+        <p><strong>Jane Smith:</strong> Very reliable and caring. Highly recommend!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book Service Section -->
+  <section class="book-service">
+    <h2>Book This Caregiver</h2>
+    <form action="submit-booking.html" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="service">Service Required:</label>
+      <select id="service" name="service" required>
+        <option value="daily-care">Daily Care</option>
+        <option value="meal-preparation">Meal Preparation</option>
+        <option value="outdoor-activities">Outdoor Activities</option>
+        <option value="housekeeping">Light Housekeeping</option>
+      </select>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+
+  <!-- Leave a Review Section -->
+  <section class="leave-review">
+    <h2>Leave a Review</h2>
+    <form action="../review-page/index-review.html" method="post">
+      <label for="reviewer-name">Your Name:</label>
+      <input type="text" id="reviewer-name" name="reviewer-name" required>
+
+      <label for="rating">Rating (1-5):</label>
+      <select id="rating" name="rating" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <label for="review">Your Review:</label>
+      <textarea id="review" name="review" rows="5" required></textarea>
+
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Caregiver Services. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

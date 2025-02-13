@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babysitting Services</title>
+    <link rel="stylesheet" href="styles-baby.css">
+</head>
+<body>
+    <header>
+        <h1>Babysitting Services</h1>
+        <nav>
+            <a href="../index-main.html">Home</a>
+            <a href="#about">About Babysitting</a>
+            <a href="#caregivers">Our Caregivers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Trusted Babysitters for Your Family</h2>
+        <p>Find experienced and reliable babysitters to ensure your children are cared for with love and professionalism.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Babysitting</h2>
+        <p>Our babysitting services connect families with experienced caregivers who are passionate about child care. All our babysitters undergo a rigorous background check and are trained to provide a safe and nurturing environment for your children. From playtime to mealtime, they ensure your little ones are happy and well cared for.</p>
+        <div class="about-pic"><img src="../pics/woman-with-reading-book-sofa-children/Artboard 108.png" alt=""></div>
+    </section>
+
+    <section id="caregivers" class="caregiver-cards">
+        <h2>Meet Our Babysitters</h2>
+        <div class="choose-caregiver">
+            <div class="caregiver">
+                <div class="image-holder">
+                    <img src="..\pics\caregiver1.jpg" alt="Babysitter 1" class="caregiver-pic">
+                </div>
+                <div class="caregiver-info">
+                    <h3>Sarah Johnson</h3>
+                    <p>Experience: 5 years</p>
+                    <p>Specializes in: Infants and toddlers</p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+            <div class="caregiver">
+                <div class="image-holder">
+                    <img src="..\pics/caregiver2.jpg" alt="Babysitter 2" class="caregiver-pic">
+                </div>
+
+                <div class="caregiver-info">
+                    <h3>Emily Davis</h3>
+                    <p>Experience: 3 years</p>
+                    <p>Specializes in: After-school care</p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+            <div class="caregiver">
+                <div class="image-holder">
+                    <img src="..\pics/caregiver3.jpg" alt="Babysitter 3" class="caregiver-pic">                    
+                </div>
+                
+                <div class="caregiver-info">
+                    <h3>Michael Smith</h3>
+                    <p>Experience: 4 years</p>
+                    <p>Specializes in: outdoor activities</p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need help choosing the right babysitter? Get in touch with us today!</p>
+        <form  action="../contact-us/index-contact.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Caregiving Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
