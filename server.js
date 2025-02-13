@@ -1,13 +1,14 @@
-const express = require("expressjs");
+const express = require("express");
+const cors = require("cors");
 const fs = require("fs");
-const cors = require("corsjs");
 
 const app = express();
 app.use(cors());
+app.use(express.json());
 
-// Load caregivers data
-app.get("/caregivers", (req, res) => {
-    fs.readFile("caregivers.json", "utf8", (err, data) => {
+// Load caregivers data from a local JSON file
+app.get("/data", (req, res) => {
+    fs.readFile("data.json", "utf8", (err, data) => {
         if (err) {
             res.status(500).json({ error: "Failed to load data" });
         } else {
@@ -16,8 +17,4 @@ app.get("/caregivers", (req, res) => {
     });
 });
 
-// Start the server
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-});
+app.listen(3000, () => console.log("API running on port 3000"));
