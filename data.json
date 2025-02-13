@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Michael Smith",
+      "image": "../pics/caregiver3.jpg",
+      "experience": "4 years",
+      "specialties": ["Outdoor activities", "Daily care", "First aid"],
+      "profileLink": "profiles/michael-smith.html"
+    },
+    {
+      "name": "Emily Johnson",
+      "image": "../pics/caregiver1.jpg",
+      "experience": "6 years",
+      "specialties": ["Meal preparation", "Housekeeping", "Elderly care"],
+      "profileLink": "profiles/emily-johnson.html"
+    },
+    {
+      "name": "Sarah Williams",
+      "image": "../pics/caregiver1.jpg",
+      "experience": "5 years",
+      "specialties": ["Child care", "Special needs support", "Homework assistance"],
+      "profileLink": "profiles/sarah-williams.html"
+    },
+    {
+      "name": "James Brown",
+      "image": "../pics/caregiver3.jpg",
+      "experience": "7 years",
+      "specialties": ["Elder companionship", "Mobility support", "Medical reminders"],
+      "profileLink": "profiles/james-brown.html"
+    },
+    {
+      "name": "Olivia Davis",
+      "image": "../pics/caregiver1.jpg",
+      "experience": "3 years",
+      "specialties": ["Infant care", "Bedtime routines", "Playtime activities"],
+      "profileLink": "profiles/olivia-davis.html"
+    },
+    {
+      "name": "David Wilson",
+      "image": "../pics/caregiver3.jpg",
+      "experience": "9 years",
+      "specialties": ["Post-surgery care", "Medication management", "Physical therapy support"],
+      "profileLink": "profiles/david-wilson.html"
+    },
+    {
+      "name": "Sophia Martinez",
+      "image": "../pics/caregiver1.jpg",
+      "experience": "4 years",
+      "specialties": ["Toddler care", "Creative learning", "Emergency response"],
+      "profileLink": "profiles/sophia-martinez.html"
+    },
+    {
+      "name": "Daniel Taylor",
+      "image": "../pics/caregiver3.jpg",
+      "experience": "5 years",
+      "specialties": ["Alzheimer's & Dementia care", "Light exercise assistance", "Companionship"],
+      "profileLink": "profiles/daniel-taylor.html"
+    },
+    {
+      "name": "Mia Anderson",
+      "image": "../pics/caregiver1.jpg",
+      "experience": "2 years",
+      "specialties": ["Newborn care", "Soothing techniques", "Baby nutrition"],
+      "profileLink": "profiles/mia-anderson.html"
+    },
+    {
+      "name": "Ethan Thomas",
+      "image": "../pics/caregiver3.jpg",
+      "experience": "8 years",
+      "specialties": ["Palliative care", "Emotional support", "Pain management"],
+      "profileLink": "profiles/ethan-thomas.html"
+    }
+  ]
+  
